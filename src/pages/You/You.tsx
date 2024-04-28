@@ -1,4 +1,4 @@
-import HomeSideBar from "../../components/Home/HomeSideBar";
+import HomeSideBar from "../../components/HomeSideBar";
 
 export default function You(): JSX.Element {
     return (

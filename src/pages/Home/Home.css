@@ -71,3 +71,38 @@
     cursor: pointer;
 }
 
+.categories-list-container {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    background-color: red;
+}
+
+.categories-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.categories-list > li {
+    display: inline-block;
+    margin: 7px;
+}
+
+.categories-list li {
+    padding: 5px;
+    background-color: var(--selection-colour);
+    border-radius: 7px;
+}
+
+.categories-list li button {
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: var(--selection-colour);
+}
+
+.categories-list li:hover, .categories-list li:hover button {
+    cursor: pointer;
+    background-color: #d4d4d4;
+}
+

@@ -1,5 +1,6 @@
 * {
     --background-colour: #fafafa;
+    --selection-colour: #ebeced;
     margin: 0;
     background-color: var(--background-colour);
 }
@@ -44,8 +45,8 @@
     font-weight: normal;
 }
 
-.home-side-bar--link:hover {
-    background-color: grey;
+.home-side-bar--link:hover, .home-side-bar--link:hover h1, .home-side-bar--link:hover i {
+    background-color: var(--selection-colour);
 }
 
 .home-side-bar--toggle-side-bar-button {
@@ -65,8 +66,8 @@
     background-color: var(--background-colour);
 }
 
-.home-side-bar--toggle-side-bar-button button:hover {
-    background-color: grey;
+.home-side-bar--toggle-side-bar-button button:hover, .home-side-bar--toggle-side-bar-button button:hover i {
+    background-color: var(--selection-colour);
     cursor: pointer;
 }
 

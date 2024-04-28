@@ -1,7 +1,9 @@
+import HomeSideBar from "../../components/Home/HomeSideBar";
+
 export default function Shorts(): JSX.Element {
     return (
-        <div>
-            Shorts
+        <div className='shorts-container'>
+            <HomeSideBar/>
         </div>
     )
 }

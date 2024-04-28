@@ -1,7 +1,9 @@
+import HomeSideBar from "../../components/Home/HomeSideBar";
+
 export default function Subscriptions(): JSX.Element {
     return (
-        <div>
-            Subscriptions
+        <div className='subscriptions-container'>
+            <HomeSideBar/>
         </div>
     )
 }

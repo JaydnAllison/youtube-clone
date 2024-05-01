@@ -7,6 +7,7 @@ import Home from "./pages/Home/Home.tsx";
 import Shorts from "./pages/Shorts/Shorts.tsx";
 import Subscriptions from "./pages/Subscriptions/Subscriptions.tsx";
 import You from "./pages/You/You.tsx";
+import './styles.css';
 
 const router = createBrowserRouter([
   {

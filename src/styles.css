@@ -1,0 +1,88 @@
+* {
+    --background-colour: #fafafa;
+    --selection-colour: #ebeced;
+    margin: 0;
+    background-color: var(--background-colour);
+}
+
+.top-bar-container {
+    position: absolute;
+    top: 0;
+    left: 70px;
+    width: 90%;
+    height: 56px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 16px;
+}
+
+.search-bar-container {
+    height: 100%;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar-container--search-bar-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar-container--search-bar-wrapper input {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 300px;
+    height: 66%;
+    border: none;
+    padding: 0;
+    border: 1px solid #d4d4d4;
+    border-right: none;
+    font-size: 1rem;
+    padding-left: 20px;
+}
+
+.search-bar-conatiner-search-button {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 60px;
+    height: 67%;
+    border: 1px solid #d4d4d4;
+}
+
+.search-bar-conatiner-search-button, .search-bar-container button i {
+    background-color: var(--selection-colour);
+}
+
+.search-bar-conatiner-search-button:hover, .search-bar-conatiner-search-button:hover i {
+    cursor: pointer;
+    background-color: #d4d4d4;
+}
+
+.search-bar-container-mic-button {
+    font-size: 1.2rem;
+    width: 42px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: var(--selection-colour);
+}
+
+.search-bar-container-mic-button i {
+    background-color: var(--selection-colour);
+}
+
+.search-bar-container-mic-button:hover, .search-bar-container-mic-button:hover i {
+    background-color: #d4d4d4;
+    cursor: pointer;
+}

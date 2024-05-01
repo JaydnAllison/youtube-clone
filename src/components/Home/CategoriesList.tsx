@@ -5,7 +5,7 @@ const Categories: Array<string> = [
     'Javascript',
     'Gaming',
     'Computers',
-    'Video game developement',
+    'Video game development',
     'Startup company',
     'Media theories',
     'Mixes',
